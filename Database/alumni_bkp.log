@@ -1,0 +1,24 @@
+;;; 
+Export: Release 18.0.0.0.0 - Production on Wed Jan 13 06:12:40 2021
+Version 18.4.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 18c Express Edition Release 18.0.0.0.0 - Production
+Starting "LOVEDEEP"."SYS_EXPORT_TABLE_01":  lovedeep/******** directory=datapump dumpfile=alumni_bkp.dmp logfile=alumni_bkp.log tables='lovedeep.alumni','lovedeep.employment','lovedeep.unemployment','lovedeep.course' 
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+Processing object type TABLE_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/MARKER
+Processing object type TABLE_EXPORT/TABLE/TABLE
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+. . exported "LOVEDEEP"."ALUMNI"                         10.06 KB       8 rows
+. . exported "LOVEDEEP"."EMPLOYMENT"                     9.234 KB       5 rows
+. . exported "LOVEDEEP"."UNEMPLOYMENT"                   7.343 KB       3 rows
+. . exported "LOVEDEEP"."COURSE"                         6.593 KB       4 rows
+Master table "LOVEDEEP"."SYS_EXPORT_TABLE_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for LOVEDEEP.SYS_EXPORT_TABLE_01 is:
+  F:\DP_EXP\TABLES\ALUMNI_BKP.DMP
+Job "LOVEDEEP"."SYS_EXPORT_TABLE_01" successfully completed at Wed Jan 13 06:13:43 2021 elapsed 0 00:00:53
